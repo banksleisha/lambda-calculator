@@ -4,10 +4,9 @@
 // file. No real tricks here just be aware of what is in each array
 // and how you'll access the data.
 
-export const Numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "."];
+const Numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "."];
 
-
-export const Operators = [
+ const Operators = [
   {
     char: "/",
     value: "/"
@@ -30,4 +29,6 @@ export const Operators = [
   }
 ];
 
-export const Specials = ["C", "+/-", "%"];
+const Specials = ["C", "+/-", "%"];
+
+export { Numbers, Operators, Specials };
